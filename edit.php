@@ -90,13 +90,7 @@ $send_images = new CRUD('images');
 	// Call recorded image links from database
 	$images_src_original = $send_images->findAll();
 	$images = $images_src_original->fetchAll();
-	/*
-	foreach($images as $imgs)
-	{
-		echo $imgs['src_original'];
-	}*/
-	//echo "<br/>";
-	//echo $imgs['src_original'];
+
 ?>
     <div class="left">
         <form action="" method="post" id="edit_form">
@@ -222,9 +216,6 @@ $send_images = new CRUD('images');
                     // to leave first 10 elements of an array
                     $links_and_sum = array_slice($links_and_sum, 0, 9);
                     $checkbox_id = 0;
-					//echo "<pre>";
-					//print_r($links_and_sum);
-					//echo "</pre>";
 					$checked = false;
                     foreach($links_and_sum as $image_link => $image_size)
                     {

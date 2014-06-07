@@ -15,8 +15,7 @@
 
         $b = $b->fetchAll();
         print_r($b);
-		
-		//print_r($locations_res);
+
     ?>
     <div class="left">
         <form action="" method="post" id="edit_form">

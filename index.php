@@ -69,8 +69,7 @@
     }
     echo '</table>';
 
-
-	?>
+?>
 
 </body>
 </html>

@@ -30,10 +30,8 @@
             {
 
                 $cell2 = $sheet->getCellByColumnAndRow($col, $j);
-            //    echo $sheet->getCellByColumnAndRow(0, $j)->getValue(), " 5555 <br/>";
                 $row_val = htmlspecialchars($cell2->getValue(), ENT_QUOTES);
-                  //  echo 'COL: '.$col.'<br/>';
-                  //  echo $row_val;
+
                     switch($col){
                         case 2:
                             $insert_array[$fields_array[$col - 1]] .= ', '.$row_val; // 1

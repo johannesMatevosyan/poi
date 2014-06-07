@@ -51,7 +51,6 @@ class CRUD {
         $string = substr($string, 2, -1);
         $query ="UPDATE {$this->table} SET {$string} WHERE id ={$id}";
         echo "<br/>";
-        //print_r($query);
         self::$_instance->exec($query);
 	}
 	//delete

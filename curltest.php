@@ -6,12 +6,8 @@ $data = file_get_contents('http://palauguell.cat/');
 
 preg_match_all('|<img.*?src=[\'"](.*?)[\'"].*?>|i',$data, $imgTags);
 
-//echo $data;
-echo "<pre>";
 print_r($imgTags[1]);
-echo "<pre>";
 
-echo "<br/>";
 
 foreach($imgTags[1] as $value)
 {
@@ -30,9 +26,8 @@ foreach($imgTags[1] as $value)
     {
         $links_and_sum[$value] = ($img_size[0] + $img_size[1]);
     }
-    //echo "<p><img src=".$value." alt='images'></p>";
 }
-//print_r($img_size);
+
 echo "<br/>";
 
 arsort($links_and_sum);
