@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 2px solid darkblue;
+}
+header{
+    text-align: center;
+    background-color: slateblue;
+}
+header div{
+    background: white;
+    height: 30px;
+}
+.content{
+    background: lightgrey;
+    padding: 0 0 0 3%;
+}
+.left{
+    display: inline-block;
+    width: 40%;
+}
+.input_style{
+    height: 24px;
+    border-radius: 3px;
+    padding: 0 0 0 3px;
+    margin: 0 0 5px 35px;
+}
+.textarea_style{
+    border-radius: 3px;
+    padding: 0 0 0 3px;
+    margin: 0 0 5px 35px;
+}
+.dropdown_style{
+    height: 28px;
+    border-radius: 3px;
+    padding: 0 0 0 3px;
+    margin: 0 0 5px 35px;
+}
+select{
+    width: 278px;
+}
+.right{
+    display: inline-block;
+    width: 56%;
+}
+.top-buttons{
+    text-align: right;
+    padding: 8px;
+}
+.top-buttons button{
+    border:1px solid darkslategray;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.image-panel{
+    border:2px solid darkblue;
+}
+.sorted_images{
+    border: 2px #000000 solid;
+}
+.bottom-buttons{
+    padding: 5px;
+}
+.bottom-buttons span{
+    font-weight: bold;
+}
+.bottom-buttons button, .bottom-buttons input{
+    padding: 2px 10px;
+    border-radius: 3px;
+    border:1px solid darkslategray;
+    cursor: pointer;
+}
+.bottom-buttons input{
+    float:right;
+    font-weight: bold;
+    cursor: pointer;
+}
+iframe{
+    width: 99%;
+    height: 460px;
+}
+.images_div{
+    background: #ffffff;
+    width: 766px;
+    height: 464px;
+    padding: 5px 5px;
+    overflow: scroll;
+}
+.map_div{
+    width: 766px;
+    height: 464px;
+    overflow: scroll;
+}
+.message{
+    color: red;
+}

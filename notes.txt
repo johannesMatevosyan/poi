@@ -1,0 +1,1 @@
+go to http://localhost/poi/edit.php?id=15 in order to see full project
